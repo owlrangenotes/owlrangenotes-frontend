@@ -1,12 +1,13 @@
-import React from "react";
-
+import { Router } from "./routes";
+import { GlobalStyle } from "./styles/Global";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>owlrange notes</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Router />
+    </>
   );
 };
 
-export default App;
+export { App };
